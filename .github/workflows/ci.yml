@@ -22,7 +22,7 @@ jobs:
 
     env:
       GITHUB_USERNAME: ${{ choimin1230 }}
-      GITHUB_TOKEN: ${{ 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 }}
+      GITHUB_TOKEN: ${{ MINTOKEN }}
 
     steps:
       - name: 1. 코드 체크아웃
