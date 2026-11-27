@@ -29,5 +29,5 @@ jobs:
       - name: Build with Gradle (Skip Tests)
         env:
           GITHUB_USERNAME: ${{ choimin1230 }}
-          GITHUB_TOKEN: ${{ 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 }}
+          GITHUB_TOKEN: ${{ MINTOKEN }}
         run: gradlew.bat clean build -x test --no-daemon
