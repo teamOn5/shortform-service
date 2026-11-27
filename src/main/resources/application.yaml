@@ -4,7 +4,7 @@ server:
 
 spring:
   application:
-    name: notification-service
+    name: shortform-service
   datasource:
     url: ${SPRING_DATASOURCE_URL}
     username: ${SPRING_DATASOURCE_USERNAME}
@@ -38,6 +38,6 @@ management:
 
 springdoc:
   api-docs:
-    path: /api/notifications/v3/api-docs
+    path: /api/shortform/v3/api-docs
   swagger-ui:
     path: /swagger-ui.html
